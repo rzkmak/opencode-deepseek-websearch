@@ -7,7 +7,7 @@
  * {
  *   "plugins": [
  *     {
- *       "package": "github:you/opencode-deepseek-websearch#v0.2.0",
+ *       "package": "github:you/opencode-deepseek-websearch#v0.1.0",
  *       "options": {
  *         "count": 10,
  *         "needContent": true,

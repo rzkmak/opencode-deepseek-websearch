@@ -23,14 +23,14 @@ Built against the **2.0.32** plugin API. OpenCode v1 is not supported.
 **Option 1 — install from GitHub** (recommended):
 
 ```
-opencode plugin add github:rzkmak/opencode-deepseek-websearch#v0.2.0
+opencode plugin add github:rzkmak/opencode-deepseek-websearch#v0.1.0
 ```
 
 The command appends the spec to `plugins` in your global `opencode.json`. Adding it by hand works the same way:
 
 ```jsonc
 {
-  "plugins": ["github:rzkmak/opencode-deepseek-websearch#v0.2.0"]
+  "plugins": ["github:rzkmak/opencode-deepseek-websearch#v0.1.0"]
 }
 ```
 
@@ -62,7 +62,7 @@ Options go in the object form of the plugin entry. All options are optional:
   "websearch": { "provider": "deepseek" },
   "plugins": [
     {
-      "package": "github:rzkmak/opencode-deepseek-websearch#v0.2.0",
+      "package": "github:rzkmak/opencode-deepseek-websearch#v0.1.0",
       "options": {
         "count": 10,
         "needContent": false,

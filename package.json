@@ -1,6 +1,6 @@
 {
   "name": "opencode-deepseek-websearch",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "private": true,
   "description": "DeepSeek search provider for the OpenCode v2 websearch tool: retries, caching, richer results, and configurable options",
   "license": "MIT",
