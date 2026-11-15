@@ -1,0 +1,28 @@
+{
+  "name": "opencode-deepseek-websearch",
+  "version": "0.2.0",
+  "private": true,
+  "description": "DeepSeek search provider for the OpenCode v2 websearch tool: retries, caching, richer results, and configurable options",
+  "license": "MIT",
+  "type": "module",
+  "exports": "./src/index.ts",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "typecheck": "tsc",
+    "test": "tsc -p tsconfig.smoke.json && node .smoke/smoke.js"
+  },
+  "dependencies": {
+    "@opencode/plugin": "latest"
+  },
+  "peerDependencies": {
+    "effect": "^4.0.1"
+  },
+  "devDependencies": {
+    "@opencode/plugin": "2.0.32",
+    "@types/node": "^24.19.2",
+    "effect": "4.0.1",
+    "typescript": "^7.0.2"
+  }
+}
